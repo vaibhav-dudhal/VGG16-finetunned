@@ -1,0 +1,6 @@
+Stage,Classifier,Accuracy%,Precision%,Recall%,F1%,ROC-AUC,FAR%,FRR%,TP,TN,FP,FN
+ML Baseline (TSBTC Best n=48),Inter-Family Stacking Ensemble,99.42,99.72,98.84,99.28,0.9959,0.19,1.16,5046,7495,14,59
+DL Baseline (VGG16),Fine-Tuned VGG16 (Standalone),99.98,99.96,99.98,99.97,1.0,0.03,0.02,5104,7507,2,1
+Fused (TSBTC_n48 + VGG16),Distance & Kernel - K-Nearest Neighbors,100.0,100.0,100.0,100.0,1.0,0.0,0.0,5105,7509,0,0
+Fused (TSBTC_n48 + VGG16),Boosting - XGBoost,100.0,100.0,100.0,100.0,1.0,0.0,0.0,5105,7509,0,0
+Fused (TSBTC_n48 + VGG16),Boosting - Hist Gradient Boosting,100.0,100.0,100.0,100.0,1.0,0.0,0.0,5105,7509,0,0

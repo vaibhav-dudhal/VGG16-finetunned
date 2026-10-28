@@ -1,0 +1,20 @@
+Stage,Classifier,Accuracy%,Precision%,Recall%,F1%,ROC-AUC,FAR%,FRR%,TP,TN,FP,FN
+Fused (TSBTC_n48 + VGG16),Distance & Kernel - K-Nearest Neighbors,100.0,100.0,100.0,100.0,1.0,0.0,0.0,5105,7509,0,0
+Fused (TSBTC_n48 + VGG16),Boosting - XGBoost,100.0,100.0,100.0,100.0,1.0,0.0,0.0,5105,7509,0,0
+Fused (TSBTC_n48 + VGG16),Boosting - Hist Gradient Boosting,100.0,100.0,100.0,100.0,1.0,0.0,0.0,5105,7509,0,0
+Fused (TSBTC_n48 + VGG16),Distance & Kernel - Intra-Family Voting Ensemble,100.0,100.0,100.0,100.0,1.0,0.0,0.0,5105,7509,0,0
+Fused (TSBTC_n48 + VGG16),Distance & Kernel - Linear SVM,100.0,100.0,100.0,100.0,1.0,0.0,0.0,5105,7509,0,0
+Fused (TSBTC_n48 + VGG16),Distance & Kernel - SVM (RBF Kernel),100.0,100.0,100.0,100.0,1.0,0.0,0.0,5105,7509,0,0
+Fused (TSBTC_n48 + VGG16),Tree - Random Forest,99.99,100.0,99.98,99.99,1.0,0.0,0.02,5104,7509,0,1
+Fused (TSBTC_n48 + VGG16),Ensemble Learning - Inter-Family Voting Ensemble,99.99,100.0,99.98,99.99,0.9999,0.0,0.02,5104,7509,0,1
+Fused (TSBTC_n48 + VGG16),Tree - Extra Trees,99.99,100.0,99.98,99.99,1.0,0.0,0.02,5104,7509,0,1
+Fused (TSBTC_n48 + VGG16),Boosting - Intra-Family Voting Ensemble,99.99,100.0,99.98,99.99,0.9999,0.0,0.02,5104,7509,0,1
+Fused (TSBTC_n48 + VGG16),Tree - Intra-Family Voting Ensemble,99.99,100.0,99.98,99.99,0.9999,0.0,0.02,5104,7509,0,1
+Fused (TSBTC_n48 + VGG16),Probabilistic & Bayes - Quadratic Discriminant Analysis,99.99,100.0,99.98,99.99,1.0,0.0,0.02,5104,7509,0,1
+Fused (TSBTC_n48 + VGG16),Ensemble Learning - Inter-Family Stacking Ensemble,99.99,100.0,99.98,99.99,1.0,0.0,0.02,5104,7509,0,1
+Fused (TSBTC_n48 + VGG16),Boosting - CatBoost,99.98,100.0,99.94,99.97,1.0,0.0,0.06,5102,7509,0,3
+Fused (TSBTC_n48 + VGG16),Boosting - LightGBM,99.98,99.98,99.96,99.97,1.0,0.01,0.04,5103,7508,1,2
+Fused (TSBTC_n48 + VGG16),Probabilistic & Bayes - Intra-Family Voting Ensemble,99.98,99.98,99.98,99.98,0.9998,0.01,0.02,5104,7508,1,1
+Fused (TSBTC_n48 + VGG16),Probabilistic & Bayes - Gaussian Naive Bayes,99.98,99.94,100.0,99.97,0.9998,0.04,0.0,5105,7506,3,0
+Fused (TSBTC_n48 + VGG16),Probabilistic & Bayes - Bernoulli Naive Bayes,99.98,99.96,99.98,99.97,0.9999,0.03,0.02,5104,7507,2,1
+Fused (TSBTC_n48 + VGG16),Tree - Decision Tree,99.96,99.98,99.92,99.95,0.9995,0.01,0.08,5101,7508,1,4

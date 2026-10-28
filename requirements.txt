@@ -1,0 +1,13 @@
+opencv-python
+numpy
+pandas
+scikit-learn>=1.3
+xgboost
+lightgbm
+catboost
+openpyxl
+joblib
+matplotlib
+torch
+torchvision
+pillow
